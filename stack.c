@@ -14,7 +14,7 @@ stack_pop( Item **p_top )
 }
 
 int 
-stack_push( Item **top, void **value )
+stack_push( Item **top, void *value )
 {
 	Item *new = ( Item * ) malloc( sizeof ( Item ) );
 	new -> data = value;

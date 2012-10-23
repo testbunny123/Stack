@@ -6,7 +6,7 @@ typedef struct Item
 } Item;
 
 int 
-stack_push( Item **p_top, void **value );
+stack_push( Item **p_top, void *value );
 
 Item *
 stack_pop( Item **p_top );
